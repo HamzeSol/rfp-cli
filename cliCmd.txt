@@ -1,0 +1,5 @@
+./rfp-cli -ld
+
+rfp-cli -d rl78 -port /dev/ttys0
+rfp-cli -d rl78 -port COMx -dtr-inv -a "C:\rfp\sample.mot"
+
